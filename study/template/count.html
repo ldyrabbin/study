@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>统计结果</title>
+</head>
+<body>
+<h1>统计结果，总字数为{{ count }},内容为{{ inp }}</h1>
+<h2>每个字的重复的次数{{ dict }}</h2>
+<h3> 排序 {{ sor }}</h3>
+{% for k,v in sor %}
+{{ k }} - {{ v }}
+<br>
+{% endfor %}
+
+</body>
+</html>
